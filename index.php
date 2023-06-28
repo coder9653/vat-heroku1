@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<?php
+echo '<!DOCTYPE html>
 <html>
 
 <head>
@@ -7,7 +8,7 @@
 
 <body>
     <h1>How to Calculate VAT on Imported Goods</h1>
-    <p>Importing goods can be an exciting venture, but it's essential to understand the various costs involved in the
+    <p>Importing goods can be an exciting venture, but it\'s essential to understand the various costs involved in the
         process. Value Added Tax (VAT) is one such cost that you need to consider when importing goods. In this article,
         we will guide you through the process of calculating VAT on imported goods, ensuring you have a clear
         understanding of how it works.</p>
@@ -25,7 +26,7 @@
 
     <h2>Determining the VAT Rate</h2>
 
-    <p>Each country has its own VAT rate structure, and it's important to determine the correct VAT rate for the goods
+    <p>Each country has its own VAT rate structure, and it\'s important to determine the correct VAT rate for the goods
         you are importing. The VAT rate can vary based on factors such as the type of goods, their origin, and any
         special tax exemptions or reduced rates.</p>
 
@@ -58,24 +59,21 @@
 
     <h2>Common VAT Calculation Mistakes</h2>
 
-    <p>When calculating VAT on imported goods, it's crucial to avoid common mistakes that can lead to inaccurate
+    <p>When calculating VAT on imported goods, it\'s crucial to avoid common mistakes that can lead to inaccurate
         calculations. Some common mistakes include incorrect VAT rate application, omitting additional costs, or
         miscalculating the customs value.</p>
 
     <h2>VAT Calculation Example</h2>
 
-    <p>Let's consider an example to illustrate the VAT calculation process. Suppose you are importing goods with a
+    <p>Let\'s consider an example to illustrate the VAT calculation process. Suppose you are importing goods with a
         customs value of $10,000 and the applicable VAT rate is 20%. To calculate the VAT payable, multiply $10,000 by
         20%:</p>
 
-    <?php
-    // PHP code to calculate VAT
-    $customsValue = 10000;
-    $vatRate = 20;
-    $vatPayable = $customsValue * ($vatRate / 100);
-    ?>
+    <p>VAT payable = $10,000 * 0.20
 
-    <p>VAT payable = $<?php echo number_format($vatPayable, 2); ?></p>
+        = $2,000</p>
+
+    <p>In this example, the VAT payable on the imported goods would be $2,000.</p>
 
     <h2>VAT Exemptions and Exceptions</h2>
 
@@ -86,8 +84,7 @@
 
     <p>To simplify the VAT calculation process, you can utilize VAT calculator tools available online. These tools
         enable you to input the necessary values and automatically calculate the VAT payable on your imported goods. One
-        such tool is the <a href="https://vatcalculatorg.com/vat-calculator-south-africa/"
-                style="color: blue; text-decoration: none;" target="_blank">SA VAT Calculator</a>.</p>
+        such tool is the <a href="https://vatcalculatorg.com/vat-calculator-south-africa/"style="color: blue; text-decoration: none;" target="_blank">SA VAT Calculator</a>.</p>
 
     <h2>Expert Advice on VAT Calculation</h2>
 
@@ -138,4 +135,5 @@
 
 </body>
 
-</html>
+</html>';
+?>
